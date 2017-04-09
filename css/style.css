@@ -1,0 +1,52 @@
+/**********  navbar  ****************/
+
+/************  main part  ***************/
+h2, h4 {
+    text-align: center;
+}
+
+.row {
+    width: 100%;
+}
+section {
+    border: dotted #f7efff;
+    /*height: 300px;*/
+    overflow: scroll;
+    margin: 3px;
+}
+
+section p {
+    margin:6px;
+    text-align: justify;
+}
+#back-top {
+    text-align: center;
+}
+
+/********** Desktop devices only **********/
+@media (min-width: 992px)  {
+
+}
+
+/********** Tablet devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Mobile small devices only **********/
+@media (max-width: 767px) {
+    .collapsable-nav {
+        padding: 0px;
+    }
+    #nav-list a {
+        text-align: center;
+    }
+    #nav-list a:hover {
+        background-color: #f7efff;
+    }
+    #collapsable-nav {
+        background-color: white;
+    }
+}
+
+
